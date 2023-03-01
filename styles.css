@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    padding: 2rem;
+    align-items: center;
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    padding: 1.5rem;
+    font-size: small;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 74vh;   
+    gap: 64px; 
+}
+
+.calculator {
+    background-color: #26619c;
+    padding: 20px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+}
+
+input, .visor {
+    color: #f5f5f5;
+    grid-column: span 4;
+    height: 72px;
+    width: 256px;
+    background-color: #2d2d2d;
+
+    border: none;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 0.5rem;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+   background-color: #f5f5f5;
+   border: none;
+   border-radius: 25%;
+   margin: 8px;
+   font-size: 24px;
+   cursor: pointer;
+}
+.operation {
+    background-color: #ed9121   ;
+}
+
+.Equal {
+    width: 115px;
+    border-radius: 15px;
+    background-color: #85bb65 ;
+}
+
+.imagem {
+    height: 408px;
+    width: 408px;
+    border-radius: 25px;
+}
